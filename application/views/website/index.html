@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title:: Artaholics ::</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+  
+</head>
+<body>
+<!----------================header_section===============---------->
+<section class="artaholics_header" id="artaholics_header">
+   <nav class="navbar navbar-expand-lg navbar-light top_header">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-3">
+                   <div class="collapse navbar-collapse t_headcollapse">
+          <ul class="navbar-nav">
+             <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SAR</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown09">
+                <a class="dropdown-item" href="#">DUBAI</a>
+                <a class="dropdown-item" href="#">ABU DHABI</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">  عربى    </a>
+            </li>
+          </ul>
+        </div>
+               </div>
+               <div class="col-md-6 logo_div">
+                  <a class="navbar-brand artaholics_logo" href="#"><img src="images/Logo.png"></a> 
+               </div>
+               <div class="col-md-3">
+                   <div class="collapse navbar-collapse t_headcollapse right_head">
+          <ul class="navbar-nav">
+            <li class="nav-item search_icon">
+             <div id="myOverlay" class="search_overlay">
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <div class="overlay-content">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+              <a class="nav-link" href="#"> <i class="fa fa-search openBtn" onclick="openSearch()" aria-hidden="true"></i>   </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="fa fa-user-o" aria-hidden="true"></i>  </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cart_items" href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="badge badge-secondary">1</span>   </a>
+            </li>
+          </ul>
+        </div>
+               </div>
+           </div>
+       </div>
+        
+
+      </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark second_header">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+              <div class="collapse navbar-collapse" id="navbarsExample08">
+          <ul class="navbar-nav menu_nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">cases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">cushions</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">one piece</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">bags</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">wallart</a>
+            </li>
+              
+
+           
+          </ul>
+        </div>
+        </div>
+    </nav>
+    
+</section>
+<!----------================end-header_section===============---------->
+<!----------================banner_section===============---------->
+<section class="banner_section">
+<div id="demo_carousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo_carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#demo_carousel" data-slide-to="1"></li>
+    <li data-target="#demo_carousel" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <div class="bg_overlay"></div>
+      <img src="images/banner4.jpg" alt="Los Angeles">
+      <div class="carousel-caption">
+    <h3>Find trendy t-shirts</h3>
+    <p>art you can wear</p>
+       <button class="btn btn-success shop_btn">shop now</button>
+        </div>
+    </div>
+    <div class="carousel-item">
+     <div class="bg_overlay"></div>
+      <img src="images/banner4.jpg">
+      <div class="carousel-caption">
+    <h3>Find trendy t-shirts</h3>
+    <p>art you can wear</p>
+       <button class="btn btn-success shop_btn">shop now</button>
+        </div>
+    </div>
+    <div class="carousel-item">
+     <div class="bg_overlay"></div>
+      <img src="images/banner4.jpg">
+      <div class="carousel-caption">
+    <h3>Find trendy t-shirts</h3>
+    <p>art you can wear</p>
+       <button class="btn btn-success shop_btn">shop now</button>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+<!----------================end-banner_section===============---------->
+<!----------================browse_section===============---------->
+<section class="browse_by">
+    <div class="container">
+       <h3 class="main_heading">browse by category</h3>
+        <div class="row">
+           
+            <div class="col7">
+               <a href="" class="browse_a">
+                <div class="browse_div">
+                   <div class="browse_overlay">
+                       <h4>Men</h4>
+                   </div>
+                    <img src="images/men.png">
+                </div>
+                </a>
+            </div>
+            <div class="col7">
+               <a href="" class="browse_a">
+                <div class="browse_div">
+                   <div class="browse_overlay">
+                       <h4>Women</h4>
+                   </div>
+                    <img src="images/women.png">
+                </div>
+                </a>
+            </div>
+            <div class="col7">
+               <a href="" class="browse_a">
+                <div class="browse_div">
+                   <div class="browse_overlay">
+                       <h4>Cases</h4>
+                   </div>
+                    <img src="images/covers.png">
+                </div>
+                </a>
+            </div>
+            <div class="col7">
+               <a href="" class="browse_a">
+                <div class="browse_div">
+                   <div class="browse_overlay">
+                       <h4>Cushions</h4>
+                   </div>
+                    <img src="images/cushions.png">
+                </div>
+                </a>
+            </div>
+            <div class="col7">
+               <a href="" class="browse_a">
+                <div class="browse_div">
+                   <div class="browse_overlay">
+                       <h4>Bags</h4>
+                   </div>
+                    <img src="images/bags.png">
+                </div>
+                </a>
+            </div>
+            <div class="col7">
+               <a href="" class="browse_a">
+                <div class="browse_div">
+                   <div class="browse_overlay">
+                       <h4>Wall Arts</h4>
+                   </div>
+                    <img src="images/wall_arts.png">
+                </div>
+                </a>
+            </div>
+            <div class="col7">
+               <a href="" class="browse_a">
+                <div class="browse_div">
+                   <div class="browse_overlay">
+                       <h4>One Piece</h4>
+                   </div>
+                    <img src="images/bags.png">
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------================end_browse_section===============---------->
+<!----------================artist_section===============---------->
+<section class="become_artist">
+    <div class="container">
+        <div class="row">
+            <div class="artist_info">
+                <h1>become an artist</h1>
+                <p>turn your design into profit</p>
+                <button class="btn btn-success shop_btn create_btn">create your own</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------================end-artist_section===============---------->
+<!----------================featured_section===============---------->
+<section class="featured_at">
+    <div class="container">
+       <h3 class="main_heading">featured at</h3>
+        <div class="row">
+            <div class="col-md-3">
+               <a href="" class="feature_a">
+                <div class="featured_div">
+                    <img src="images/f1.png">
+                         <button class="btn btn-success quick_btn featured_overlay featured_overlay"><span class="view_q">Quick View</span></button>
+                         <p class="fea_art">By Harff art</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+               <a href="" class="feature_a">
+                <div class="featured_div">
+                    <img src="images/f2.png">
+                         <button class="btn btn-success quick_btn featured_overlay featured_overlay"><span class="view_q">Quick View</span></button>
+                         <p class="fea_art">By Pilotwingz</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+               <a href="" class="feature_a">
+                <div class="featured_div">
+                    <img src="images/f3.png">
+                         <button class="btn btn-success quick_btn featured_overlay featured_overlay"><span class="view_q">Quick View</span></button>
+                         <p class="fea_art">By Owaikeo</p>
+                </div>
+                </a>
+            </div>
+             <div class="col-md-3">
+               <a href="" class="feature_a">
+                <div class="featured_div">
+                    <img src="images/f4.png">
+                         <button class="btn btn-success quick_btn featured_overlay featured_overlay"><span class="view_q">Quick View</span></button>
+                         <p class="fea_art">By Pilotwingz</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+               <a href="" class="feature_a">
+                <div class="featured_div">
+                    <img src="images/f5.png">
+                         <button class="btn btn-success quick_btn featured_overlay featured_overlay"><span class="view_q">Quick View</span></button>
+                         <p class="fea_art">By Owaikeo</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+               <a href="" class="feature_a">
+                <div class="featured_div">
+                    <img src="images/f6.png">
+                         <button class="btn btn-success quick_btn featured_overlay featured_overlay"><span class="view_q">Quick View</span></button>
+                         <p class="fea_art">By Pilotwingz</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+               <a href="" class="feature_a">
+                <div class="featured_div">
+                    <img src="images/f4.png">
+                         <button class="btn btn-success quick_btn featured_overlay featured_overlay"><span class="view_q">Quick View</span></button>
+                         <p class="fea_art">By Owaikeo</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+               <a href="" class="feature_a">
+                <div class="featured_div">
+                    <img src="images/f8.png">
+                         <button class="btn btn-success quick_btn featured_overlay featured_overlay"><span class="view_q">Quick View</span></button>
+                         <p class="fea_art">By Pilotwingz</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-12">
+                <div class="view_more">
+                    <button class="btn btn-success shop_btn">view more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------================end-featured_section===============---------->
+<!----------================featured_section===============---------->
+<section class="featured_artist">
+    <div class="container">
+       <div class="row">
+           <div class="col-md-7">
+               <div class="shop_artist">
+                  <h5 class="sub_head">featured artists</h5>
+                   <div class="row">
+                       <div class="col-md-4">
+                           <div class="artists_div">
+                               <img src="images/1.png">
+                               <p class="artist_name">By Artboutique</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="artists_div">
+                               <img src="images/2.png">
+                               <p class="artist_name">By Artboutique</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="artists_div">
+                               <img src="images/3.png">
+                               <p class="artist_name">By Artboutique</p>
+                           </div>
+                       </div>
+                       <div class="col-md-12">
+                          <div class="view_more">
+                           <button class="btn btn-success shop_btn shop_artist_btn">shop artist</button>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-5">
+               <div class="artist_box">
+                  <div id="artist_profile" class="carousel slide" data-ride="carousel">
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="artist_prof">
+          <img src="images/prof.png">
+          <div class="artist_content">
+              <p class="art_name">jamal masaewe</p>
+              <p class="art_loc">London , United Kingdom</p>
+              <p class="art_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+          </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="artist_prof">
+          <img src="images/prof.png">
+          <div class="artist_content">
+              <p class="art_name">jamal masaewe</p>
+              <p class="art_loc">London , United Kingdom</p>
+              <p class="art_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#artist_profile" data-slide="prev">
+    <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+  </a>
+  <a class="carousel-control-next" href="#artist_profile" data-slide="next">
+    <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+  </a>
+
+</div> 
+               </div>
+           </div>
+       </div>
+    </div>
+</section>
+
+<!----------================end-featured_section===============---------->
+<!----------================one_piece_section===============---------->
+<section class="one_piece">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="one_piece_div">
+               <div class="one_piece_overlay">
+                   <div class="piece_cont">
+                       <h3>one piece</h3>
+                       <p>designing by hand</p>
+                       <button class="btn btn-success shop_btn shop_artist_btn">shop now</button>
+                   </div>
+               </div>
+                <img src="images/one_piece.png">
+                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="one_piece_div mr-btm two_pieces">
+               <div class="one_piece_overlay">
+                   <div class="piece_cont">
+                       <button class="btn btn-success shop_btn shop_artist_btn">shop now</button>
+                   </div>
+               </div>
+                <img src="images/one_piece2.png">
+                
+            </div>
+            <div class="one_piece_div two_pieces">
+               <div class="one_piece_overlay">
+                   <div class="piece_cont">
+                       <button class="btn btn-success shop_btn shop_artist_btn">shop now</button>
+                   </div>
+               </div>
+                <img src="images/one_piece3.png">
+                
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!----------================end_one_piece_section===============---------->
+<!----------================social_section===============---------->
+<section class="get_social">
+    <div class="container">
+       <h3 class="main_heading">get social</h3>
+        <div class="row">
+            <figure class="snip0066 yellow">
+  <img src="images/s1.png" alt="sample41" />
+  <div class="icons">
+  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+  <div class="corner"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+</figure>
+<figure class="snip0066 red hover"><img src="images/s2.png" alt="sample42" />
+  <div class="icons">
+  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>
+  </a></div>
+  <div class="corner"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+</figure>
+<figure class="snip0066 blue"><img src="images/s3.png" alt="sample45" />
+  <div class="icons">
+  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="#">
+  <i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+  <div class="corner"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+</figure>
+       <figure class="snip0066 blue"><img src="images/s4.png" alt="sample45" />
+  <div class="icons">
+  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+  <div class="corner"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+</figure>
+        </div>
+    </div>
+</section>
+<!----------================end-social_section===============---------->
+<!----------================footer_section===============---------->
+<section class="footer_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer_info">    
+                    <h4>CONTACT US</h4>
+                    <p>Phone : (+100) 123 456 7890</p>
+                    <p>Email :  Support@smarttech.com</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer_info ">    
+                    <h4>newsletter</h4>
+                    <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Email" id="demo" name="email">
+  <div class="input-group-append">
+    <span class="input-group-text"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
+  </div>
+</div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="footer_info no_brdr">    
+                    <h4>testinomials</h4>
+                    <div id="testinomial" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#testinomial" data-slide-to="0" class="active"></li>
+    <li data-target="#testinomial" data-slide-to="1"></li>
+    <li data-target="#testinomial" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p class="testinomial_para"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;
+      
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry
+           &nbsp;  &nbsp;  <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+    </div>
+    <div class="carousel-item">
+      <p class="testinomial_para"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;
+      
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry
+           &nbsp;  &nbsp;  <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+    </div>
+    <div class="carousel-item">
+      <p class="testinomial_para"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;
+      
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry
+           &nbsp;  &nbsp;  <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+    </div>
+  </div>
+</div>
+                   
+                </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer_icons">
+                        <span>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>   
+                        </span>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+    <div class="cards">
+       <div class="line_bg"></div>
+        <div class="cards_img">
+            <img src="images/creditcards.png">
+        </div>
+        <div class="line_bg2"></div>
+    </div>
+    <div class="container footer_least">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer_menu">
+                    <ul>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">work with us</a></li>
+                        <li><a href="">custom t-shirts</a></li>
+                        <li><a href="">faq</a></li>
+                        <li><a href="">help</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="copy_right">
+                    <p>&copy; 2019 Artaholics all Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="top_box scroll-top-wrapper">
+           <a href="#artaholics_header" class="go_topa">
+            <img src="images/small%20logo.png">
+            <p>TOP</p>
+            </a>
+        </div>
+    </div>
+</section>
+</body>
+<script type="text/javascript">
+	  /* Demo purposes only */
+  $("figure").mouseleave(
+    function() {
+      $(this).removeClass("hover");
+    }
+  );
+</script>
+<script>
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+<script>
+    $(document).ready(function(){
+
+$(function(){
+ 
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 1000, 'linear');
+}
+
+});
+</script>
+</html>

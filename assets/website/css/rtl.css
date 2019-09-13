@@ -1,0 +1,510 @@
+body {
+	direction: rtl;
+	unicode-bidi: embed;/*	font-family: "Effra" !important; */
+}
+div, table, thead, tbody, tr, td, th, span, ul, li, a, h1, h2, h3, h4, h5, h6, dt, dd {
+/*font-family: "Effra" !important;*/ }
+a {
+	display: inline-block;
+}
+/*ul,
+ol {
+	margin: 0 20px 24px 0;
+}
+*/
+li > ul, li > ol {
+	margin: 0 20px 0 0;
+}
+caption, th, td {
+	text-align: right;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	float: right !important;
+}
+.col-lg-offset-1, .col-md-offset-1, .col-sm-offset-1 {
+	margin-right: 8.333333333333332%;
+	margin-left: 0px;
+}
+.col-lg-offset-2, .col-md-offset-2, .col-sm-offset-2 {
+	margin-right: 16.666666666666664%;
+	margin-left: 0px;
+}
+.owl-carousel.owl-loaded {
+	display: block;
+	direction: ltr;
+}
+/**
+ * 2.0 Repeatable Patterns
+ * -----------------------------------------------------------------------------
+ */
+.margin-0 {
+	margin: 0px !important;
+}
+.pad-0 {
+	padding: 0px !important;
+}
+/* Header CSS
+ * -----------------------------------------------------------------------------
+ */
+.navbar-header {
+	float: right !important;
+}
+.navbar-right {
+	float: right !important;
+}
+.navbar-nav {
+	float: right;
+	margin: 0;
+}
+.lang_dropdown{
+    direction:ltr;
+}
+.artists_div{
+    text-align:right;
+}
+.featured_div{
+    text-align:right;
+}
+.artist_profile {
+    left: -40px;
+    right:auto !important;
+}
+.control_list .carousel-control-prev {
+    left: 13% !important;
+    right:auto !important;
+}
+.control_list>.carousel-control-next {
+    right: 75% !important;
+    left:auto !important;
+}
+.padl_0 {
+    padding-right: 0;
+    padding-left:15px !important;
+}
+.padr_0 {
+    padding-left: 0;
+    padding-right:15px !important;
+}
+.piece_cont {
+    text-align: right !important;
+    margin-top: 26%;
+    padding-left: 0 !important;
+    padding-right: 12% !important;
+}
+.footer_section p {
+    color: #000;
+    direction: ltr !important;
+}
+.footer_col.rtl_footer_col{
+    border:none !important;
+}
+.rtl_footer_col{
+    border-right:1px solid #0000003d;
+}
+.top_box {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    right:auto !important;
+}
+.filters_div h3 {
+    text-align: right;
+}
+.filters_div .panel-title > a {
+    text-align: right;
+}
+.filters_div .panel-title a[aria-expanded="true"]::after {
+    float: left !important;
+}
+.filters_div .panel-title a:after {
+    float: left !important;
+}
+.custom-checkbox{
+    text-align:right;
+}
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    padding-right: 20px !important;
+    padding-left:0 !important;
+}
+.custom-control-label::before {
+    right: -5px !important;
+    left:auto !important;
+}
+.custom-control-label::after {
+    right: -5px !important;
+    left:auto !important;
+}
+.color_list .custom-control-label::before {
+    right: -10px !important;
+    left:auto !important;
+}
+.color_list .custom-control-label::after {
+    right: -10px !important;
+    left:auto !important;
+}
+.fview_info h4 {
+    text-align: right;
+}
+.apply_btn button {
+    float: left !important;
+}
+.sort_by {
+    float: left !important;
+}
+.filter_result h4 {
+    text-align: right !important;
+}
+.fea_overlay i {
+    left: 10px !important;
+    right:auto !important;
+}
+div.paginator {
+    float: left !important;
+}
+.pull-right {
+    float: left !important;
+}
+.wish_share {
+    left: 0 !important;
+    right:auto !important;
+}
+.mr-3{
+    margin-left: 1rem !important;
+    margin-right:0 !important;
+}
+.fview_info {
+    text-align: right;
+}
+.color_list label {
+    font-size: 14px;
+    color: #000;
+    padding: 0px 15px 0 0px !important;
+    font-weight: 600;
+}
+figure.effect-lexi figcaption::before {
+    left: -100px !important;
+    right:auto !important;
+}
+figure.effect-lexi p {
+    left: 0 !important;
+    right:auto !important;
+}
+.grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+    text-align: right !important;
+}
+.onepiece_color_list input {
+    margin-left: 5px !important;
+    margin-right:0 !important;
+}
+.color_list .radio {
+    margin-right: 0 !important;
+}
+.wish_list, .add {
+    width: 50%;
+    float: right !important;
+}
+.add .form-inline {
+    float: left !important;
+}
+.about_pro h3 {
+    text-align: right;
+}
+.pro_media .media-body{
+    text-align:right;
+}
+.faq_section {
+    text-align: right;
+}
+.mr-5, .mx-5 {
+    margin-left: 3rem!important;
+    margin-right:auto !important;
+}
+.close{
+    float: left;
+    text-align: left;
+    margin: 0 !important;
+    padding-top: 5px !important;
+}
+.contact_box .media-body{
+    text-align:right;
+}
+.form-group{
+ text-align:right;
+}
+.save_form {
+    float: left !important;
+}
+.cart_sidebar .overlay {
+    left: 0 !important;
+    right:auto !important;
+}
+.cart_sidebar .overlay .closebtn {
+    right: 10px !important;
+    left:auto !important;
+}
+.cart_img {
+    width: 30%;
+    float: right !important;
+    padding: 0px 15px;
+}
+.cart_info {
+    text-align: right !important;
+}
+.close_item {
+    position: absolute;
+    top: -5px;
+    left: 5px !important;
+    right:auto !important;
+}
+.cost_table tr>td:nth-child(1) {
+    text-align: right !important;
+}
+.cost_table tr>td:nth-child(2) {
+    text-align: left !important;
+}
+.info_card .card-header{
+    text-align:right !important;
+}
+.address_card .card-header{
+    text-align:right !important;
+}
+.info_card .card-header{
+    text-align:right !important;
+}
+.checkout_fill .card-header .card-link::after {
+    float: left !important;
+    padding-top: 5px;
+}
+.checkout_fill .card-header .card-link {
+    overflow: hidden;
+    clear: both;
+    display: block;
+}
+.next_btn {
+    float: left !important;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.artist_works .available_tabs a {
+    padding: 0px 0px 22px 0px;
+    color: rgba(0,0,0,.5) !important;
+    font-size: 12px;
+    font-weight: 600;
+    overflow: hidden;
+    clear: both;
+    display: initial;
+}
+.artist_works .available_tabs ul {
+    background: #E2E1E6;
+    width: 85%;
+    display: initial !important;
+    padding: 15px;
+    border: none;
+    float: right !important;
+}
+.artist_wrapper .artist_loc {
+    float: left !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.dataTables_length {
+    float: right !important;
+}
+.dataTables_paginate.paging_simple_numbers .pagination{
+    float:left !important;
+}
+.dataTables_paginate.paging_simple_numbers {
+    float: left !important;
+}
+.dataTables_info{
+    text-align:right;
+}
+.sort_box .col-md-12 h4,.sort_box .col-md-5 h4 {
+    text-align:right !important;
+}
+.register_box .register_card {
+    width: 70%;
+    float: right !important;
+    padding: 0px 15px;
+}
+.error {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    white-space: pre;
+    font-size: 13px;
+    font-weight: 600;
+        width: fit-content;
+}
+.edit_option {
+    cursor: pointer;
+    position: absolute;
+    width: 23px;
+    left: 25px;
+    top: 10px;
+    right: auto !important;
+}
+
+.new_design	input.img-roundc {
+    position: absolute;
+    width: 0px;
+    top: 10px;
+    right: 20px;
+    left:auto;
+}
+.artist_works .available_wrapper ul {
+    padding: 0px !important;
+    margin-bottom: 15px;
+}
+.new_design	.need_help {
+    text-align: right !important;
+}
+.nav-tabs .design_type_item+.design_type_item {
+    margin-right: 1.2rem !important;
+    margin-left:auto !important;
+    margin-top: 15px;
+}
+.upload_art h3{
+    text-align:right;
+}
+.fill_pinfo h3 {
+    margin: 25px 0px !important;
+    overflow: hidden;
+    clear: both;
+    display: block;
+    text-align: right;
+}
+.art_options .form-check-inline {
+    width: 20%;
+    float: right !important;
+}
+.form-check-inline .form-check-input {
+    margin-left: .3125rem;
+    margin-right: 0;
+}
+.custom-control.custom-switch.my-cu.toggle_switch{
+    text-align:right !important;
+}
+.terms_conditions_div{
+    text-align: right;
+}
+.form-check-input {
+    margin-right: -1.25rem !important;
+    margin-left: auto !important;
+}
+.toggle_switch label {
+    padding-left: 15px !important;
+    padding-right: 0 !important;
+}
+.new_design	.shop_btn {
+    float: right;
+}
+.art_options {
+    
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+.col-md-3.right_hwrapper {
+    position: absolute;
+    top: 99%;
+    right: 35px;
+    left:auto;
+    z-index: 9999999;
+}
+.col-md-3.left_hwrapper {
+    position: absolute;
+    top: 99%;
+    left:0 !important;
+    z-index: 9999999;
+    right:auto !important;
+    width: 50%;
+}
+.t_headcollapse li {
+    padding: 0px;
+    margin: 10px;
+    padding-right: 0 !important;
+}
+.right_head .dropdown-menu {
+    padding: 0px;
+    border-top: 1px solid #F9DE5A;
+    border-radius: 0px;
+    margin-top: 5px;
+    left: 4px !important;
+    top: 28px;
+}
+.lang_dropdown .dropdown-menu {
+    top: 29px;
+    left: -62px !important;
+}
+.menu_nav a {
+    text-align: right;
+}
+.browse_by .col7 a{
+    width:100%;
+}
+.control_list .carousel-control-prev {
+    left: 35px !important;
+    right: auto !important;
+}
+.control_list>.carousel-control-next {
+    left: 1% !important;
+    right: auto !important;
+}
+.left_hwrapper .navbar-nav {
+    display: inline-block !important;
+    left: 13px;
+    position: absolute;
+    right:auto;
+}
+.form-check-input {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+}
+@media screen and (max-width: 480px) and (min-width: 320px){
+    .wish_share {
+    right: 0 !important;
+    left: auto !important;
+    margin: 0 auto;
+    display: block;
+}
+}
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    .control_list .carousel-control-prev {
+    left: 45px !important;
+    right: auto !important;
+}
+.form-check-input {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+ .col-md-3.right_hwrapper{
+     overflow: hidden;
+    clear: both;
+    display: -webkit-inline-box;
+ }
+ .form-check-input {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+.navbar-nav {
+    float: initial !important;
+    margin: 0;
+}
+.women_section .panel-collapse.collapse{
+    width:100%;
+}
+}
+
+
+
